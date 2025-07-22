@@ -13,6 +13,16 @@
   margin: 0;
   padding: 0;
 }
+.header {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.main {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
 .flex {
   display: flex;
 }
@@ -20,12 +30,13 @@
 .buy-btn {
   border: none;
   border-radius: 6px;
-  color: white;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 16px 20px;
   gap: 10px;
+  cursor: pointer;
 }
 
 .dark-1 {
@@ -41,10 +52,6 @@
   color: #cccc;
 }
 
-.header {
-  max-width: 1220px;
-  margin: 0 auto;
-}
 /* The nav section starts from here */
 
 .navbar {
@@ -141,7 +148,6 @@ input:focus {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  
 }
 .product-categories div {
   justify-content: space-between;
@@ -178,5 +184,46 @@ input:focus {
   width: 65px;
 }
 /* The shoe section starts from here */
+
+.shoes-product {
+  margin-bottom: 100px;
+}
+.card-container-1 {
+  justify-content: space-between;
+  gap: 20px;
+}
+.product-card img {
+  width: 335px;
+}
+.product-card {
+  border-radius: 20px;
+  height: 500px;
+  width: 360px;
+  padding: 25px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card-details {
+  margin-bottom: 20px;
+}
+
+.pd-btn {
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: auto;
+}
 /* The backpack section starts from here */
 /* The subscribe section starts from here */
