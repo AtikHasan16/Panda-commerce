@@ -28,11 +28,6 @@
   gap: 10px;
 }
 
-.body {
-  max-width: 1220px;
-  margin: 0 auto;
-}
-
 .dark-1 {
   color: #1f1f1f;
 }
@@ -44,6 +39,11 @@
 }
 .dark-4 {
   color: #cccc;
+}
+
+.header {
+  max-width: 1220px;
+  margin: 0 auto;
 }
 /* The nav section starts from here */
 
@@ -124,6 +124,59 @@ input:focus {
 }
 
 /* The category section starts from here */
+.categories {
+  margin-bottom: 50px;
+  max-width: 1130px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.categories-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.product-categories {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+.product-categories div {
+  justify-content: space-between;
+
+  width: 350px;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  );
+  flex: 1;
+}
+
+.product-categories .category-2 {
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+  flex: 1;
+}
+.product-categories .category-3 {
+  background: linear-gradient(
+    170.38deg,
+    rgb(66, 137, 255) 15.416%,
+    rgb(63, 7, 248) 74.29%
+  );
+  flex: 1;
+}
+.product-categories > div img {
+  width: 65px;
+}
 /* The shoe section starts from here */
 /* The backpack section starts from here */
 /* The subscribe section starts from here */

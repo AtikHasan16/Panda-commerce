@@ -15,4 +15,8 @@
   .banner {
     flex-direction: column;
   }
+
+  .product-categories {
+    flex-direction: column;
+  }
 }

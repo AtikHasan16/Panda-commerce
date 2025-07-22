@@ -10,6 +10,9 @@
     text-align: center;
     gap: 20px;
   }
+  .product-categories {
+    flex-wrap: nowrap;
+  }
 
   @keyframes input {
     0% {
