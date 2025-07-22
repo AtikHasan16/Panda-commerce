@@ -58,12 +58,6 @@ input[type="search"] {
   background-color: #f1f1f1;
   padding: 12px 0 12px 12px;
   width: 40%;
-  position: relative;
-}
-.search-icon{
-    position: absolute;
-    right: 43%;
-    color: #cccc;
 }
 
 input::placeholder {
