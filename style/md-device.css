@@ -1,12 +1,16 @@
 /* This css for medium devices only */
 
 @media screen and (min-width: 570px) and (max-width: 970px) {
+  .body {
+    margin: 0 10px;
+  }
+
   .navbar {
     flex-direction: column;
     text-align: center;
     gap: 20px;
   }
-  
+
   @keyframes input {
     0% {
     }
