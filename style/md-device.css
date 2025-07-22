@@ -1,0 +1,26 @@
+/* This css for medium devices only */
+
+@media screen and (min-width: 570px) and (max-width: 970px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .search-icon {
+    top: 17%;
+    right: 33%;
+  }
+
+  @keyframes input {
+    0% {
+    }
+    25% {
+    }
+    50% {
+    }
+    75% {
+    }
+    100% {
+    }
+  }
+}

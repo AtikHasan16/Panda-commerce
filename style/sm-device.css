@@ -1,0 +1,13 @@
+/* This css for small devices only */
+
+@media screen and (max-width: 570px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .search-icon {
+    top: 17%;
+    right: 33%;
+  }
+}

@@ -1,0 +1,91 @@
+/* This is the common style area */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+
+.buy-btn {
+  border: none;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+.body {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.dark-1 {
+  color: #1f1f1f;
+}
+.dark-2 {
+  color: #4e4e4e;
+}
+.dark-3 {
+  color: #707070;
+}
+.dark-4 {
+  color: #cccc;
+}
+/* The nav section starts from here */
+
+.navbar {
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+}
+
+input[type="search"] {
+  border-radius: 50px;
+  border: none;
+  background-color: #f1f1f1;
+  padding: 12px 0 12px 12px;
+  width: 40%;
+  position: relative;
+}
+.search-icon{
+    position: absolute;
+    right: 43%;
+    color: #cccc;
+}
+
+input::placeholder {
+  color: #cccccc;
+}
+
+.list-container {
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.list-container .list-item {
+  list-style: none;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #707070;
+}
+/* The banner section starts from here */
+/* The category section starts from here */
+/* The shoe section starts from here */
+/* The backpack section starts from here */
+/* The subscribe section starts from here */
