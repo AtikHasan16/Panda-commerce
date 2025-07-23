@@ -13,12 +13,16 @@
   margin: 0;
   padding: 0;
 }
-.header {
+
+.sub-header {
   max-width: 1220px;
   margin: 0 auto;
 }
-
 .main {
+  background-color: #f1f1f1;
+  padding: 50px 0 100px 0;
+}
+.sub-main {
   max-width: 1130px;
   margin: 0 auto;
 }
@@ -60,12 +64,23 @@
   margin: 50px auto;
 }
 
+.searchbar {
+  position: relative;
+  width: 40%;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 input[type="search"] {
   border-radius: 50px;
   border: none;
   background-color: #f1f1f1;
   padding: 12px 0 12px 12px;
-  width: 40%;
+  width: 100%;
 }
 
 input::placeholder {
@@ -188,10 +203,15 @@ input:focus {
 .shoes-product {
   margin-bottom: 100px;
 }
+
+.shoes-title {
+  margin: 20px;
+}
 .card-container-1 {
   justify-content: space-between;
   gap: 20px;
 }
+
 .product-card img {
   width: 335px;
 }
@@ -201,7 +221,7 @@ input:focus {
   width: 360px;
   padding: 25px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 .card-title {
@@ -226,4 +246,17 @@ input:focus {
   margin: auto;
 }
 /* The backpack section starts from here */
+
+.backpack-product {
+  margin-bottom: 100px;
+}
+
+.backpack-title {
+  margin: 20px;
+}
+
+.backpack-product .product-card img {
+  width: 230px;
+}
+
 /* The subscribe section starts from here */

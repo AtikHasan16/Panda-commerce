@@ -1,8 +1,11 @@
 /* This css for small devices only */
 
 @media screen and (max-width: 570px) {
-  .body {
+  .sub-header {
     margin: 0 10px;
+  }
+  .main {
+    margin: 0;
   }
   .navbar {
     flex-direction: column;
